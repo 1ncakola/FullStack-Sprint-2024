@@ -27,8 +27,11 @@ const searchUser = (query) => {
   );
 };
 
-//
-addUser('testuser', 'test@example.com', '7094531223');
-console.log('Sampple users', users);
+const getAllUsers = () => {
+  return users;
+};
 
-module.exports = { addUser, getUser, updateUser, searchUser };
+addUser('testuser', 'test@example.com', '7094531223');
+addUser('pedro', 'pedro@example.com', '7094533433');
+
+module.exports = { addUser, getUser, updateUser, searchUser, getAllUsers };

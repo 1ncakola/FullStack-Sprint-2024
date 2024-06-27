@@ -1,7 +1,7 @@
 {
-    "app": {
-      "name": "FullStackAssignment",
-      "version": "1.0.0"
-    }
-  }
-  
+  "app": {
+    "name": "FullStackAssignment",
+    "version": "1.0.0"
+  },
+  "max_users": "100"
+}

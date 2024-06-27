@@ -23,5 +23,5 @@ describe('CLI tests', () => {
     expect(output).toContain('Application is initialized.');
   });
 
-  // Add more tests for other CLI commands
+  
 });
