@@ -1,9 +1,10 @@
+// import necery packages for applications
 const { Command } = require('commander');
 const fs = require('fs');
 const path = require('path');
 const program = new Command();
 
-
+// configure paths for files
 const configPath = path.join(__dirname, '../config/config.json');
 const defaultConfigPath = path.join(__dirname, '../config/default.json');
 const usersPath = path.join(__dirname, '../config/users.json');
